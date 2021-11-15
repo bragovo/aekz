@@ -1,0 +1,31 @@
+@import "normalize.css";
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: min(max(1rem, 4vw), 1.5rem);
+  line-height: 1.5em;
+  padding: 2rem 1rem;
+  font-weight: 400;
+  background: rgb(255, 255, 255);
+  color: rgb(30, 30, 30);
+}
+
+
+h1 {
+  margin: 0;
+  font-weight: 700;
+  line-height: 1.25em;
+  font-size: 2em;
+}
+
+p, h1 {
+  margin: 0 0 0.5em;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: rgb(255, 255, 255);
+    background: rgb(30, 30, 30);
+  }
+}

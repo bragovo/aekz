@@ -1,0 +1,42 @@
+.root {
+  margin: auto;
+  max-width: 26em;
+}
+
+.vd {
+  margin: auto;
+  max-width: 200px;
+  position: relative;
+  background: url(../public/vd.png) center no-repeat;
+  background-size: cover;
+  aspect-ratio: 395 / 378;
+}
+
+.gh {
+  margin-top: 2rem;
+}
+
+.gh a {
+  margin: auto;
+  display: block;
+  width: 2rem;
+  opacity: 0.6;
+  transition: 0.3s opacity;
+  color: rgb(30, 30, 30);
+}
+
+.gh a:hover {
+  opacity: 1;
+}
+
+.gh svg {
+  display: block;
+  width: 2rem;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  .gh a {
+    color: rgb(255, 255, 255);
+  }
+}
